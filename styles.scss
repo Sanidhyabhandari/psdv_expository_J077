@@ -9,6 +9,11 @@ $font-family-serif: "Roboto", sans-serif;
 
 /*-- scss:rules --*/
 
+/* Apply font settings globally */
+body {
+    font-family: $font-family;
+}
+
 /* Styling for keyboard inputs */
 kbd,
 .kbd {
@@ -19,6 +24,51 @@ kbd,
 .navbar {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+/* Light Mode Styles */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    /* Links */
+    a {
+        color: #007bff;
+    }
+
+    /* Code Blocks */
+    pre {
+        background-color: #f6f6f6;
+        color: #333;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+    /* Tables */
+    table {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+
+    /* Keyboard inputs */
+    kbd,
+    .kbd {
+        background-color: #f6f5f5 !important;
+        color: #000 !important;
+    }
 }
 
 /* Dark Mode Styles */
@@ -58,7 +108,7 @@ kbd,
         color: #ffffff !important;
     }
 
-    /* Keyboard inputs in dark mode */
+    /* Keyboard inputs */
     kbd,
     .kbd {
         background-color: #333 !important;

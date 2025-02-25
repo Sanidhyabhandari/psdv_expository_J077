@@ -2,4 +2,3 @@
 title: "Chart.js: A comprehensive guide to Data Visualisation"
 ---
 
-nice website.
