@@ -1,5 +1,5 @@
 ---
-title: Chart.js: A comprehensive guide to Data Visualisation
+title: "Chart.js: A comprehensive guide to Data Visualisation"
 ---
 
 nice website.
