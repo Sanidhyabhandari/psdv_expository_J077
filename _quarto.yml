@@ -6,10 +6,10 @@ website:
   title: "Chart.js: A comprehensive guide to Data Visualisation"
   navbar:
     right:
-      - #href: index.qmd
-        #text: Home
-      - #href: blog.qmd
-        #text: Blog
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
 
 
 format:
