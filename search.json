@@ -7,11 +7,67 @@
     "text": "Simple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Welcome",
+    "objectID": "blog_FINAL.html",
+    "href": "blog_FINAL.html",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
     "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Chart.js is a popular open source JavaScript library for Data-Visualization and powered by HTML5 as its foundational technology. Providing robust customization options and an easy to use API, it is often used to build dashboards, reports, or any interactive application. With over 2 million monthly npm downloads, Chart.js is actively developed by the community, receiving bi-monthly minor revisions and major changes every couple of years, providing a balance between adding new features and keeping up with them."
+  },
+  {
+    "objectID": "blog_FINAL.html#introduction",
+    "href": "blog_FINAL.html#introduction",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "",
+    "text": "Chart.js is a popular open source JavaScript library for Data-Visualization and powered by HTML5 as its foundational technology. Providing robust customization options and an easy to use API, it is often used to build dashboards, reports, or any interactive application. With over 2 million monthly npm downloads, Chart.js is actively developed by the community, receiving bi-monthly minor revisions and major changes every couple of years, providing a balance between adding new features and keeping up with them."
+  },
+  {
+    "objectID": "blog_FINAL.html#prerequisites",
+    "href": "blog_FINAL.html#prerequisites",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "PREREQUISITES",
+    "text": "PREREQUISITES\nTo understand, learn and setuo Chart.js, you need the following:\n\nTo start off basic Web development knowledge is necessary for:\n\n\nHTML\nCSS\nJavaScript\n\n\nUnderstanding fundamentals of JavaScript like variables, data structures, functions and objects.\nUnderstanding mordern features of JavaScript like const, let, arrow functions, etc. will help to improve and optimize your syntax.\nChart.js uses HTML5 Canvas for rendering its charts, familiarity with the Canvas API is optional although very helpful."
+  },
+  {
+    "objectID": "blog_FINAL.html#installation-setup",
+    "href": "blog_FINAL.html#installation-setup",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "INSTALLATION & SETUP",
+    "text": "INSTALLATION & SETUP\n\nStep-1: Setting up JavaScript\nTo use JavaScript in web apps, do the following:\n\nCreate a HTML file.\nAdd a &lt;Script&gt; tag to include JavaScript.\nNow, create a script.js file located in the same folder as the HTML file and add JavaScript code in it.\n\nAlternatively, you can also install and setup JavaScript and run using Node.js. Using Node.js will allow Javascript to run natively without a browser and enables Server-side Scripting. Follow the steps below to install JavaScript using Node.js:\n\nInstall Node.js, this is equipped with NPM (Node Package Manager) and Node.js (JavaScript runtime).\n\nOpen terminal and run the following command to verify installation:\n\nTo check Node.js Version: node -v\nTo check NPM Version: npm -v\n\n\nInstall a code editor like VS Code or use sublime text, notepad ++, etc.\nRunning JavaScript in Node.js\n\n\nOpen your terminal and type node and press enter, this opens Node.js REPL.\nCopy and paste the following command:\nconsole.log(“Hello, World!”);\nThe code above will print “Hello World!”.\n\n\n\nStep-2: Download & include Chart.js\nTo utilize chart.js in your project. There are 3 main ways to achieve the same:\n\n1) CDN (Content Delivery Network)\nIt is a quick and easy method to include Chart.js. For simple webpages, use the following code snippet in your HTML file to include Chart.js from a CDN:\n\n&lt;script src=“https://cdn.jsdelivr.net/npm/chart.js”&gt;&lt;/script&gt;\nThis method works in any browser, always uses the latest revision of chart.js and no need to download files.\n\n\n\n2) Install through NPM (Node Package Manager)\nFor developers using Node.js & Bundlers to build complex web apps, install Chart.js using the following:\n\nRun the following command:\n\n\nnpm install chart.js\n\n\nThen, import chart.js in your JavaScript file using the following command:\n\n\nimport Chart from ‘chart.js/auto’;\nThis method is suitable for larger projects and works with modern frameworks.\n\n\n\n3) Install Chart.js manually\nIf one needs to run Chart.js without an internet connection then doenload it manually. Follow these steps:\n\nDownload Chart.js from the official site of Chart.js.\nExtract its files and place Chart.min.js inside the projects folder.\nInclude the following code snippst in your HTML:\n\n\n&lt;script src=“js/Chart.min.js”&gt;&lt;/script&gt;\nThis method works offline and allows the version of chart.js to be controlled."
+  },
+  {
+    "objectID": "blog_FINAL.html#key-features-and-explanation",
+    "href": "blog_FINAL.html#key-features-and-explanation",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "KEY FEATURES AND EXPLANATION",
+    "text": "KEY FEATURES AND EXPLANATION\n\nMultiple chart types can be produced:\n\n\nLine Chart\nBar Chart\nRadar Chart\nDoughnut & Pie\nPolar Area Chart\nBubble Chart\nScatter Chart\n\n\nAnimations and transitions are supported for the above mentioned charts while loading or updating. Animation speed and effect types can also be customised.\n\n\nA sample code snippet is given below which uses the following features:\n\n\n\n\nanimations.png\n\n\n\nduration: 2000 -&gt; Runs animation for 2s.\neasing: ‘easeInOutBounce’ -&gt; Gives a bouncy effect while appearing.\ndelay: 500 -&gt; Adds 0.5s delay before start.\nloop: false -&gt; Animation doesn’t loop, runs for a single time\n\n\nInteractive and responsive\n\n\nBased on screen size, charts are automatically resized.\n\n\nCustomisation & Styling\n\n\nCustomise color, font, gridlines and tooltips, legends and backgrounds by using gradients, images or pattern.\n\n\nAdditional features\n\n\nCharts update dynamically with new data without the page, useful for real-time data visualisation.\nUses simple JSON based data structure\nIt’s lightweight, only ~60 KB in size.\nUses HTML5 Canvas for efficient rendering."
+  },
+  {
+    "objectID": "blog_FINAL.html#code-examples",
+    "href": "blog_FINAL.html#code-examples",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "CODE EXAMPLES",
+    "text": "CODE EXAMPLES\n\nBelow are some code snippets which goes over the features of chart.js\n\n\n1. Lets start off with building a line graph\n\nHTML Structure and Chart.js Import\n\n\n\n\nScreenshot 2025-02-24 155438.png\n\n\n\nImage above defines the document structure.\nCanvas Element: &lt;canvas id=“myLineChart”&gt;&lt;/canvas&gt; acts as the drawing area for the chart.\nChart.js Import: The script loads Chart.js from CDN, enabling chart.js.\n\n\nJavaScript – Selecting the Canvas and Initializing the Chart\n\n\n\n\nScreenshot 2025-02-24 155730.png\n\n\nThe changes in the above image are given below\n\nSelecting the Canvas → Document.getElementById(‘myLineChart’).getContext(‘2d’); gets the 2D context for drawing.\nCreating a Chart Object → New Chart(ctx, { … }) initializes a line chart.\nlabels → Defines X-axis values (Months).\ndatasets → Contains Monthly Sales data points.\nborderColor & backgroundColor → Define the line and fill colors.\nfill: true → Fills the area under the line.\ntension: 0.3 → Smooths the line curves.\n\n\nConfiguring Chart Options\n\n\n\n\nScreenshot 2025-02-24 155915.png\n\n\n\nResponsive Behavior: responsive → True ensures the chart adjusts dynamically to screen size.\nY-Axis Settings: beginAtZero → True ensures the Y-axis starts from zero.\n\n\nFinal Line Graph\n\n\n\n\nScreenshot 2025-02-24 160552.png\n\n\nSummary for the above output:\n\nHTML Setup & Chart.js Import → Defines the page structure and loads Chart.js.\nJavaScript – Chart Creation → Selects the canvas, defines data points, and styles the chart.\nChart Configuration → Enables responsiveness and ensures proper Y-axis scaling.\n\n\n\n2. Now, lets look into building a bar chart\n\nBar Graph JavaScript\n\n\n\n\nScreenshot 2025-02-24 161151.png\n\n\n\ntype: ‘bar’ → Specifies that this is a bar chart.\nlabels → Defines the X-axis categories (months).\nlabel → Describes the dataset.\ndata → Represents sales figures.\nbackgroundColor → Defines the bar fill color with transparency.\nborderColor → Defines the bar outline color.\nborderWidth → Sets the thickness of the bar border.\n\n\nBar graph\n\n\n\n\nScreenshot 2025-02-24 161446.png\n\n\n\n\n3. Lets build a Scatter plot\n\nScatter plot JavaScript\n\n\n\n\nScreenshot 2025-02-24 161807.png\n\n\n\ndocument.getElementById(‘myScatterChart’).getContext(‘2d’) gets the 2D drawing context for the scatter plot.\ntype: ‘scatter’ → Specifies that this is a scatter plot.\nlabel → “Data Points” (description of the dataset).\ndata → An array of { x, y } values representing scatter points.\nbackgroundColor → Sets the color of the points.\nborderColor → Defines the border color of points.\npointRadius → Sets the size of the points.\n\n\nScatter Plot\n\n\n\n\nScreenshot 2025-02-24 161623.png\n\n\n\n\n4. Lastly, lets finish off with a Radar Plot\n\nJavaScript code\n\n\n\n\nScreenshot 2025-02-24 234620.png\n\n\n\ndocument.getElementById(‘myRadarChart’).getContext(‘2d’) gets the 2D drawing context for Chart.js.\ntype: ‘radar’ → Specifies that this is a radar chart.\nlabels → Defines categories (Speed, Strength, Agility, Stamina, Skill).\nlabel: “Athlete Performance” → describes the dataset.\ndata: [80, 90, 75, 85, 95] → These are the performance scores.\nbackgroundColor: Light blue filled area.\nborderColor: Darker blue outline of the radar.\nborderWidth: 2 → makes the outline more visible.\n\n\nRadar Plot\n\n\n\n\nScreenshot 2025-02-24 234836.png"
+  },
+  {
+    "objectID": "blog_FINAL.html#use-cases",
+    "href": "blog_FINAL.html#use-cases",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "USE CASES",
+    "text": "USE CASES\nThe usage of chart.js is prevalent in various sectors due to its efficiency and customisation options. Below are some of the practical use cases of it highlighting the various strengths of chart.js:\n1) IoT Sensor Data on Low-End Hardware\nHigh efficiency of Chart.js makes it perfect for low-end devices. Developers use this tool to monitor data from sensors in real-time like temperature or humidity in devices like Raspberry Pi. This efficiency enables real-time rendering with smooth animations and without any lag even on low-end devices.\n2) Interactive Business Dashboards\nUsed for Displaying Key Performance Indicators (KPIs) such as sales, revenue, stock market visualisation or traffic. It’s responsiveness and interactivity enables dynamic and clickable charts that adapt to different screen sizes. Real-time and interactive visuals help decision makers to quickly grasp trends.\n3) Educational Platforms for Student Performance\nEducational tools require that data be presented in a clear and well-suited format. Chart.js provides extensive customisation options, enabling educators to create chart best suited for the use case and align with the needs of the organisation. It’s ease of usage and integration is also very helpful, making it a popular choice for online learning platforms to track various performance parameters."
+  },
+  {
+    "objectID": "blog_FINAL.html#conclusion",
+    "href": "blog_FINAL.html#conclusion",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "CONCLUSION",
+    "text": "CONCLUSION\nThis free JavaScript library turns datasets into visual stories using line graphs, bar charts, pies, and more – all fully customizable and mobile-ready. Perfect for dashboards, reports, or analytics tools, it’s like having a versatile toolkit that works whether you’re a coding newbie or a seasoned pro."
+  },
+  {
+    "objectID": "blog_FINAL.html#references-further-readings",
+    "href": "blog_FINAL.html#references-further-readings",
+    "title": "Chart.js: A comprehensive guide to Data Visualisation",
+    "section": "REFERENCES & FURTHER READINGS",
+    "text": "REFERENCES & FURTHER READINGS\n\nChart.js Official Documentation → https://www.chartjs.org/docs/latest/\nChart.js GitHub Repository → https://github.com/chartjs/Chart.js\nChart.js Getting Started Guide → https://www.chartjs.org/docs/latest/getting-started/\nChart.js Customization Guide → https://www.chartjs.org/docs/latest/configuration/\nUsing Chart.js with React → https://react-chartjs-2.js.org/"
   },
   {
     "objectID": "posts/visualisation.html",
@@ -19,6 +75,13 @@
     "title": "Simple Visualisation",
     "section": "",
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
     "objectID": "index.html",
