@@ -3,19 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Template --- "
-  navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: blog.qmd
-        text: Blog
+  title: "Chart.js: A comprehensive guide to Data Visualisation"
+  #navbar:
+    #right:
+      - #href: index.qmd
+        #text: Home
+      - #href: blog.qmd
+        #text: Blog
 
 
 format:
   html:
     theme:
-      light: [litera, styles.scss]
+      dark: [litera, styles.scss]
     highlight-style: a11y-dark
     mainfont: "Roboto"
     code-copy: true

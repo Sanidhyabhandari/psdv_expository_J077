@@ -1,7 +1,5 @@
 ---
-title: Quarto Template
+title: Chart.js: A comprehensive guide to Data Visualisation
 ---
 
-Quarto template Text!
-
-# this is my website or page
+nice website.
