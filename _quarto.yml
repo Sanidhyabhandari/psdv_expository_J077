@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "PSDV Exposition Website"
+  title: "PSDV Exposition Website - J077"
   navbar:
     right:
       - href: index.qmd
