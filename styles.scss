@@ -1,17 +1,67 @@
 /*-- scss:defaults --*/
 
+/* Import Google Fonts */
 @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
 
+/* Define font variables */
 $font-family: "Roboto", sans-serif;
 $font-family-serif: "Roboto", sans-serif;
 
 /*-- scss:rules --*/
+
+/* Styling for keyboard inputs */
 kbd,
 .kbd {
     background-color: #f6f5f5 !important;
 }
 
+/* Navbar padding */
 .navbar {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212 !important;
+        color: #ffffff !important;
+    }
+
+    /* Links */
+    a {
+        color: #1e90ff;
+    }
+
+    /* Code Blocks */
+    pre {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+    /* Tables */
+    table {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        border: 1px solid #444;
+    }
+
+    th, td {
+        border: 1px solid #444;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #1e1e1e !important;
+        color: #ffffff !important;
+    }
+
+    /* Keyboard inputs in dark mode */
+    kbd,
+    .kbd {
+        background-color: #333 !important;
+        color: #fff !important;
+    }
 }

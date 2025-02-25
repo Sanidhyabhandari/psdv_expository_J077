@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Chart.js: A comprehensive guide to Data Visualisation"
+  title: "PSDV Exposition Website"
   navbar:
     right:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
+      - href: Chartjs_blog.ipynb
         text: Blog
 
 
