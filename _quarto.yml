@@ -4,8 +4,8 @@ project:
 
 website:
   title: "Chart.js: A comprehensive guide to Data Visualisation"
-  #navbar:
-    #right:
+  navbar:
+    right:
       - #href: index.qmd
         #text: Home
       - #href: blog.qmd
